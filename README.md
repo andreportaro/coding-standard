@@ -62,7 +62,12 @@ Take note of the paths where they were installed.
 
 Create a symbolic link to the `CodeIgniter4-Standard/CodeIgniter4` directory in `php_codesniffer/src/Standards/` eg.
 
-`ln -s ~/Documents/Projects/CodeIgniter4-Standard/CodeIgniter4 ~/.composer/vendor/squizlabs/php_codesniffer/src/Standards/CodeIgniter4`
+`cd` into the `Standards` folder inside the php_codesniffer installation folder:
+`cd ~/.composer/vendor/squizlabs/php_codesniffer/src/Standards`
+
+Create a symbolic link (symlink) with the following. Don't forget to replace the ~/Documents/Projects/CodeIgniter4-Standard with the correct download path.
+
+`ln -s ~/Documents/Projects/CodeIgniter4-Standard/CodeIgniter4 CodeIgniter4`
 
 or copy the `CodeIgniter4-Standard/CodeIgniter4` directory to `php_codesniffer/src/Standards/`
 
